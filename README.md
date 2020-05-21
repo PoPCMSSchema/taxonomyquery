@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/taxonomyquery
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\TaxonomyQuery\Component::initialize();
 ```
--->
 
 ## Standards
 
