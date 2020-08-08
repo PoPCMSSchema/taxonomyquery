@@ -17,7 +17,7 @@ Adds support for taxonomy (category and tag) queries
 Via Composer
 
 ``` bash
-composer require getpop/taxonomyquery
+composer require pop-schema/taxonomyquery
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\TaxonomyQuery\Component::class,
+    \PoPSchema\TaxonomyQuery\Component::class,
 ]);
 ```
 
@@ -75,17 +75,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/taxonomyquery.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/taxonomyquery.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/taxonomyquery/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/taxonomyquery.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/taxonomyquery.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/taxonomyquery.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/taxonomyquery/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/taxonomyquery.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/taxonomyquery.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/taxonomyquery.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/taxonomyquery
-[link-travis]: https://travis-ci.org/getpop/taxonomyquery
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/taxonomyquery/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/taxonomyquery
-[link-downloads]: https://packagist.org/packages/getpop/taxonomyquery
+[link-packagist]: https://packagist.org/packages/pop-schema/taxonomyquery
+[link-travis]: https://travis-ci.org/pop-schema/taxonomyquery
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/taxonomyquery/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/taxonomyquery
+[link-downloads]: https://packagist.org/packages/pop-schema/taxonomyquery
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors
